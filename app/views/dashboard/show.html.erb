@@ -1,0 +1,7 @@
+<section class="jumbotron  text-center">
+   <h2><img class="jumbo-thumbnail" src="<%= @user['picture'] %>"/></h2>
+  <h1>Welcome, <%= @user['nickname'] %></h1>
+  <h2><img class="jumbo-thumbnail" src="https://flagpedia.net/data/flags/w580/<%= @user['https://example.com/country'].to_str().downcase() =%>.png"/></h2>
+  <%= button_to 'Logout', 'auth/auth0/logout', method: :get %>
+
+</section>

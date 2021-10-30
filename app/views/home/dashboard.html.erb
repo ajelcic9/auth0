@@ -1,0 +1,6 @@
+<h1>Home#dashboard</h1>
+<p>Find me in app/views/home/dashboard.html.erb</p>
+  <%= button_to 'Logout', 'auth/auth0/logout', method: :get %>
+<div>
+  <p>Normalized User Profile:<%= JSON.pretty_generate(@user)%></p>
+</div>

@@ -1,0 +1,5 @@
+# ./config/auth0.yml
+development:
+  auth0_domain: cruise0.us.auth0.com
+  auth0_client_id: 4pAA6sQxJyaZYcnqCpeXF2KRNYzgM1Nr
+  auth0_client_secret: OLcRP6-ke1tQq6V_GlLpeMQocEN6jWw1nXxBfNhm00-wwCmmUAFiIJzEup0iKA1Y
